@@ -25,8 +25,8 @@ public class ReportHelper {
         classificationFiles.add("src/test/resources/config/config.properties");
         configuration.addClassificationFiles(classificationFiles);
 
-        ReportBuilder reportBuilder = new ReportBuilder(jsonFiles, configuration);
-        reportBuilder.generateReports();
+        // ReportBuilder reportBuilder = new ReportBuilder(jsonFiles, configuration);
+        // reportBuilder.generateReports();
     }
 
 }
